@@ -1,9 +1,9 @@
 #include <AFMotor.h>
-#include <Servo.h>  
+#include <Servo.h>
 
 Servo myservo;
- 
-int pos = 0; 
+
+int pos = 0;
 
 
 int Left = A1;     // left sensor
@@ -28,7 +28,7 @@ void setup() {
   pinMode(Forward, INPUT);
   pinMode(RelayPin, OUTPUT);
   myservo.attach(10);
-  myservo.write(90); 
+  myservo.write(90);
 
 }
 
@@ -67,6 +67,7 @@ void start()
 
 void forward()
 {
+  delay(500);
   motor1.setSpeed(Speeed);
   motor1.run(FORWARD);
   motor2.setSpeed(Speeed);
@@ -75,23 +76,22 @@ void forward()
   motor3.run(FORWARD);
   motor4.setSpeed(Speeed);
   motor4.run(FORWARD);
-  delay(300);
-
   digitalWrite(RelayPin , HIGH);
   delay(500);
-  for(pos = 0; pos <= 180; pos += 1) 
+
+  for (pos = 50; pos <= 130; pos += 1)
   {
     myservo.write(pos);
-    delay(15);
+    delay(10);
   }
-  for(pos = 180; pos>=0; pos-=1)
+  for (pos = 130; pos >= 50; pos -= 1)
   {
     myservo.write(pos);
-    delay(15);
+    delay(10);
   }
   digitalWrite(RelayPin , LOW);
-  delay(10);
-  
+  myservo.write(90);
+
 }
 void left()
 {
