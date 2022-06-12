@@ -1,7 +1,7 @@
 <h3 align="center" > Fire Fighting Robot </h1>
 
 ## Summary
-Made a simple fire fighter robot project which independently detects and extinguishes fire.fire fighters are constantly at a risk of losing their life. Fire spreads rapidly if it is not controlled. In case of a gas leakage there even may be an explosion. So, in order to overcome this issue, this firefighting robotic system come to rescue which powered by Arduino Uno and Motor Shield Driver.it is also equipped with the fire flame sensor for detecting and approaching fire it also makes use of water tank and spray mechanism for extinguishing the fire.
+Made A Simple Fire Fighter Robot Project Which Independently Detects And Extinguishes Fire.Fire Fighters Are Constantly At A Risk Of Losing Their Life. Fire Spreads Rapidly If It Is Not Controlled. In Case Of A Gas Leakage There Even May Be An Explosion. So, In Order To Overcome This Issue, This Firefighting Robotic System Come To Rescue Which Powered By Arduino Uno And Motor Shield Driver.It Is Also Equipped With The Fire Flame Sensor For Detecting And Approaching Fire It Also Makes Use Of Water Tank And Spray Mechanism For Extinguishing The Fire.
 
 ## COMPONENTS AND SUPPLIES 
 * Arduino Uno R3
@@ -23,6 +23,9 @@ Made a simple fire fighter robot project which independently detects and extingu
    <b> without case</b><br>
     <img src="pics/2.jpeg" width="500px"><br>
 </p>
+
+## Working Concepts 
+If There Is Fire In Front Of Fire Fighter Car Then The Flame Sensor Will Detect It. If Flame Sensor Detects Any Fire In Any Direction (Left,Right,Forward) It Will Move Toward That Direction And It Will Get Close To The Fire And Once It Get Close To Fire It Will Turn On The Relay And Relay Will Power The 5v Water Pump And There Will Be A Servo In Front Of The Car Which Will Splash The Water In Every Angle By Moving The Servo.Coding Part Was Tricky.Water Pump Will Splash The Water For 1min After That The Relay Will Switch Power And Water Pump Will Turn Off.
 
 ## Necessary Software Required 
 - [Arduino IDE](https://www.arduino.cc/en/software)
