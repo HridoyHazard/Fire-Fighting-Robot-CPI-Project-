@@ -18,12 +18,8 @@ Made a simple fire fighter robot project which independently detects and extingu
 ## Detailed Project Picture 
 
 <p align="center">
-  <b>start and write variable</b><br>
-    <img src="ss/variable.png"><br>
-   <b> Environment Variable</b><br>
-    <img src="ss/edit.PNG"><br>
-    <b> Edit Path</b><br>
-    <img src="ss/path.PNG"><br>
-    <b> New Path for Bison and Mingw</b><br>
-    <img src="ss/new path.PNG"><br>
+  <b>project with case</b><br>
+    <img src="pics/1.jpeg"><br>
+   <b> without case</b><br>
+    <img src="pics/2.jpeg"><br>
 </p>
